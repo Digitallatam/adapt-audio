@@ -1,0 +1,32 @@
+//AUDIO EXTENSION
+.audio-controls {
+
+    .icon {
+    	
+    	position: absolute;
+		top: -60px;
+		right: 380px;
+
+        &.play {
+			height:36px;
+			width:76px;
+			background-image: url("../../assets/icon-play.png");
+			background-repeat:no-repeat;
+        }
+        &.pause {
+			height:36px;
+			width:76px;
+            
+			background-image: url("../../assets/icon-pause.png");
+			background-repeat:no-repeat;
+        }
+    }
+}
+
+@media all and (max-width:759px) {
+
+	.audio-controls .icon {
+		top: 0px;
+		left: 45%;
+	}
+}
